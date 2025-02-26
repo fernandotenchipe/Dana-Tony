@@ -2,67 +2,13 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>6 Meses de Amor 💖</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffe6f2;
-            color: #d6336c;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #ff99c8;
-            padding: 20px;
-            font-size: 36px;
-            font-weight: bold;
-            color: white;
-        }
-        nav {
-            background-color: #ff4d6d;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        .carousel-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-            width: 100%;
-            padding: 40px 0;
-        }
-        .carousel {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            gap: 30px;
-            padding: 20px;
-            white-space: nowrap;
-            scroll-behavior: smooth;
-            max-width: 80%;
-        }
-        .carousel img, .carousel video {
-            width: 250px;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
-            scroll-snap-align: center;
-        }
-        .flower {
-            position: absolute;
-            font-size: 24px;
-            animation: move 10s linear infinite;
-        }
 
-    </style>
 </head>
+
 <body>
     <header>
         ¡Nuestra Historia! <br>
@@ -73,12 +19,28 @@
         <a href="#videos">Videos</a>
     </nav>
     <h2 id="fotos">Nuestros mejores momentos juntos</h2>
-    <div class="carousel-container">
-        <div class="carousel">
-            <img src="Assets/TonyCopa.png" alt="Tony Bebiendo vino">
-            <img src="Assets/TonyLoquillo.jpeg" alt="Tony de loquillo">
-            <img src="Assets/TonyBillieEilish.jpg" alt="Tony Billie Eilish">
+    <div class="carrusel">
+
+        <div class="atras">
+            <img id="atras" src="Assets/atras.svg" alt="atras" loading="lazy">
         </div>
+
+        <div class="imagenes">
+            <div id="img">
+                <img class="img" src="Assets/TonyBillieEilish.jpg" alt="6 Meses Contigo" loading="lazy">
+            </div>
+            <div id="texto" class="texto">
+                <h3>6 Meses contigo</h3>
+                <p>¡Gracias por estos 6 meses de amor! 💖</p>
+            </div>
+        </div>
+
+                <div class="adelante" id="adelante">
+            <img src="Assets/adelante.svg" alt="adelante" loading="lazy">
+        </div>
+    </div>
+    <div class="puntos" id="puntos"></div>
+    
     </div>
     <h2 id="videos">Videos especiales 📹</h2>
     <div class="carousel-container">
@@ -93,19 +55,6 @@
             </video>
         </div>
     </div>
-    <script>
-        function createFlower() {
-            const flower = document.createElement('div');
-            flower.className = 'flower';
-            flower.innerText = '🌸';
-            flower.style.top = Math.random() * window.innerHeight + 'px';
-            flower.style.left = Math.random() * window.innerWidth + 'px';
-            flower.onclick = () => alert('Te amo');
-            document.body.appendChild(flower);
-            setTimeout(() => flower.remove(), 10000); // La flor desaparece después de 10 segundos
-        }
-
-        setInterval(createFlower, 60000); // Crea una flor cada minuto
-    </script>
+    <script  src= "app.js"></script>
 </body>
 </html>
