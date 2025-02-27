@@ -18,11 +18,11 @@ function showMessage(text) {
     
     document.body.appendChild(messageContainer);
 
-    // Desvanecer el mensaje después de 3 segundos
+    // Desvanecer el mensaje después de 2 segundos
     setTimeout(() => {
         messageContainer.style.opacity = '0';
         setTimeout(() => messageContainer.remove(), 1000);
-    }, 3000);
+    }, 2000);
 }
 
 setInterval(createFlower, 60000); // Crea una flor cada minuto
