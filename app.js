@@ -32,18 +32,38 @@ setInterval(createFlower, 60000); // Crea una flor cada minuto
 let imagenes = [
     {
         "url": "Assets/TonyBillieEilish.jpg",
-        "nombre": "Enero",
-        "descripcion": "Este es el proyecto 01 fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "nombre": "Antes de ser novios",
+        "descripcion": "Cuando te conoci"
+    },
+    {
+        "url": "Assets/TonyBillieEilish.jpg",
+        "nombre": "Septiembre",
+        "descripcion": "Cuando bailamos bajo las estrellas"
     },
     {
         "url": "Assets/TonyCopa.png",
-        "nombre": "Febrero",
-        "descripcion": "Hola a todos este es el proyecto02 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "nombre": "Octubre",
+        "descripcion": "Cuando tuvimos nuestro primer halloween"
     },
     {
         "url": "Assets/TonyLoquillo.jpeg",
-        "nombre": "Marzo",
-        "descripcion": "Este proyecto, es el 03 y fue desarrollado para un video de youtube. Si te gusta el contenido dale like y suscribete"
+        "nombre": "Noviembre",
+        "descripcion": "Cuando tuvimos nuestros primer aniversario"
+    },
+    {
+        "url": "Assets/TonyBillieEilish.jpg",
+        "nombre": "Diciembre",
+        "descripcion": "Cuando me diste el mejor regalo"
+    },
+    {
+        "url": "Assets/TonyCopa.png",
+        "nombre": "Enero",
+        "descripcion": "Cuando te quite tu enojo con un pastel"
+    },
+    {
+        "url": "Assets/TonyLoquillo.jpeg",
+        "nombre": "Febrero",
+        "descripcion": "Y por muchos meses mas"
     }
 ]
 
