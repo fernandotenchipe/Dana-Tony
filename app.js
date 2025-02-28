@@ -31,37 +31,37 @@ setInterval(createFlower, 60000); // Crea una flor cada minuto
 // Carrusel de imágenes con botones y temporizador automático
 let imagenes = [
     {
-        "url": "Assets/TonyBillieEilish.jpg",
+        "url": "Assets/prenovios.jpg",
         "nombre": "Antes de ser novios",
         "descripcion": "Cuando te conoci"
     },
     {
-        "url": "Assets/TonyBillieEilish.jpg",
+        "url": "Assets/sep.jpg",
         "nombre": "Septiembre",
         "descripcion": "Cuando bailamos bajo las estrellas"
     },
     {
-        "url": "Assets/TonyCopa.png",
+        "url": "Assets/oct.jpg",
         "nombre": "Octubre",
         "descripcion": "Cuando tuvimos nuestro primer halloween"
     },
     {
-        "url": "Assets/TonyLoquillo.jpeg",
+        "url": "Assets/nov.jpg",
         "nombre": "Noviembre",
         "descripcion": "Cuando tuvimos nuestros primer aniversario"
     },
     {
-        "url": "Assets/TonyBillieEilish.jpg",
+        "url": "Assets/dic.jpg",
         "nombre": "Diciembre",
         "descripcion": "Cuando me diste el mejor regalo"
     },
     {
-        "url": "Assets/TonyCopa.png",
+        "url": "Assets/ene.jpg",
         "nombre": "Enero",
         "descripcion": "Cuando te quite tu enojo con un pastel"
     },
     {
-        "url": "Assets/TonyLoquillo.jpeg",
+        "url": "Assets/TonyLoquillo.jpg",
         "nombre": "Febrero",
         "descripcion": "Y por muchos meses mas"
     }
