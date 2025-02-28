@@ -59,11 +59,6 @@ let imagenes = [
         "url": "Assets/ene.jpg",
         "nombre": "Enero",
         "descripcion": "Cuando te quite tu enojo con un pastel"
-    },
-    {
-        "url": "Assets/TonyLoquillo.jpg",
-        "nombre": "Febrero",
-        "descripcion": "Y por muchos meses mas"
     }
 ]
 
