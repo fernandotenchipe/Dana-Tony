@@ -52,8 +52,8 @@ nav a {
 
 .img{
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-    height: 676px;
-    width: 600px;
+    height: 576px;
+    width: 400px;
     border-radius: 15px ;
     margin: 5px;
     object-fit: cover;

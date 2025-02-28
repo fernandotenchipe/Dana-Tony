@@ -31,6 +31,11 @@ setInterval(createFlower, 60000); // Crea una flor cada minuto
 // Carrusel de imágenes con botones y temporizador automático
 let imagenes = [
     {
+        "url": "Assets/portada.jpg",
+        "nombre": "Gracias por ser mi novia",
+        "descripcion": "¡Gracias por estos 6 meses de amor! 💖"
+    },
+    {
         "url": "Assets/prenovios.jpg",
         "nombre": "Antes de ser novios",
         "descripcion": "Cuando te conoci"
