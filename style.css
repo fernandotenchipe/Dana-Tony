@@ -147,3 +147,59 @@ nav a {
     transition: opacity 1s ease-in-out;
     z-index: 1000;
 }
+.gift-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gift-lid {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: #ff4d6d;
+    top: 0;
+    left: 0;
+    border-radius: 5px 5px 0 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gift-box {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    background-color: #ff99c8;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.gift-ribbon {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: #d6336c;
+    top: 15px;
+    left: 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Animación de apertura */
+.open .gift-lid {
+    transform: translateY(-40px) rotate(-20deg);
+}
+
